@@ -81,7 +81,7 @@ select {
 
 .main-btn {
 	height: 40px;
-	border: 1px solid #8ec3f7;
+	border: 1px solid #5a8dee;
 	border-radius: 5px;
 	text-align: center;
 }
@@ -456,3 +456,147 @@ content: '';
 	height: 12px;
 	background: #f7652b;
 }
+
+/*---------------- activity ----*/
+/*------------------------------*/
+
+.activity {
+width: 753px;
+border-radius: 14px;
+  background-color: #fff;
+      margin-left: .8rem;
+}
+
+.activity__wrap {
+    width: 95%;
+    margin: 0 auto;
+}
+
+/*---------- activ  ---------*/
+
+.activity__activ {
+
+}
+
+.activ__wrap {
+
+}
+
+.activ__title-wrap {
+	height: 50px;
+	width: 95%;
+    margin: 0 auto;
+}
+
+.activ__title {
+color: #475f7b;
+  font-family: "Avenir-Medium";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+.activ__view {
+	margin-right: 30px;
+}
+
+.activ__btn {
+	margin: 0 1rem 0 1.5rem;
+  width: 74px;
+  height: 25px;
+  color: #5a8dee;
+  font-family: "Avenir-Medium";
+  font-size: 9px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: .1425px;
+}
+
+.activ__burger {
+top: .1rem;
+    right: -1.3rem;
+}
+
+.activ__news {
+  
+}
+
+.template__wrap {
+    width: 92%;
+    height: 67px;
+    margin: 0 auto;
+}
+
+.news__template:nth-child(even) {
+	background-color: #8ca0b3;
+}
+
+.news__wrap-img {
+	width: 4%;
+}
+
+.news__img {
+  max-width: 38px;
+  max-height: 50px;
+}
+
+.news__info {
+
+}
+
+.news__title {
+	width: 155px;
+color: #475f7b;
+  font-family: "Avenir-Medium";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;	
+  overflow: hidden;
+}
+
+.news__text {
+	color: #053361;
+	font-family: "Avenir-Medium";
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 24px;
+}
+
+.news__currency-one {
+color: #475f7b;
+  font-family: "Avenir-Medium";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.news__currency-two {
+color: #475f7b;
+  font-family: "Avenir-Medium";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.news__currency-two::before {
+	content: '-';
+	position: absolute;
+	top: 0;
+	right: 6.1rem;
+	display: block;
+}	
+
+.news__time-ago {
+	color: #000a12;
+  font-family: "AvenirNext-Italic";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: right;
+}
+
+.news__minutes {
+
+}
+
+/*-------------  updates  ------*/
