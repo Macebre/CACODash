@@ -232,7 +232,7 @@ ul li a {
     background-color: #f5f5f5;
 }
 
-.board__wrapper {
+.board__wrapp {
 	padding-bottom: .75rem;
 }
 
@@ -474,7 +474,7 @@ content: '';
 /*---------- activ  ---------*/
 
 .activity__activ {
-width: 753px;
+width: 68.4%;
 border-radius: 14px;
   background-color: #fff;
 }
@@ -603,7 +603,7 @@ color: #475f7b;
 /*-------------  updates  ------*/
 
 .updates {
-	width: 369px;
+	width: 29.5%;
   height: 402px;
   border-radius: 14px;
   background-color: #fff;
@@ -689,10 +689,182 @@ color: #727e8c;
 /*-----------------*/
 
 .coin {
-	background-color: #fff;
-	border-radius: 14px;
+	    background-color: #fff;
+    border-radius: 14px;
+    width: 98%;
+    margin: 1rem auto 0;
 }
 
 .coin__text-wrap {
-	margin: -.2rem 0 2.2rem;
+	padding: 1.2rem 0 .7rem;
+}
+
+.coin__title {
+color: #475f7b;
+  font-family: "Avenir-Medium";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+.coin__btn-wrap {
+    width: 10%;
+}
+
+.coin__burger {
+width: 4.8rem;
+    height: 1.55rem;
+        color: #5a8dee;
+    font-family: "Avenir-Medium";
+    font-size: 9px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: .1425px;
+}
+
+.field__burger {
+
+}
+
+/*-----  posts  ---------*/
+
+.coin__wrap-post {
+padding-bottom: 1.1rem;
+}
+
+.coin__wrap {
+
+}
+
+.coin-text-wrap {
+	width: 4.1rem;
+}
+
+.coin__total {
+color: #828d99;
+  font-family: "Avenir-Medium";
+  font-size: 9px;
+  font-weight: 400;
+  line-height: 9px;
+}
+
+.coin__total-usd {
+	    margin: 15px 0 5px;
+color: #828d99;
+  font-family: "Avenir-Medium";
+  font-size: 9px;
+  font-weight: 400;
+  line-height: 9px;
+}
+
+.coin__template {
+
+}
+
+.coin__img-wrap {
+    max-height: 70px;
+    height: 65px;
+}
+
+.coin__img {
+	object-fit: cover;
+}
+
+.coin__wrap-text {
+	margin-bottom: 25px;
+color: #053361;
+  font-family: "Avenir-Medium";
+  font-size: 12px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.coin__currency {
+
+}
+
+.coin__currency-short {
+    line-height: .65em;
+}
+
+.coin__currency-coins {
+
+}
+
+.coin__currency-usd {
+
+}
+
+/* ************************/
+/*------------------------*/
+
+.revenue {
+background: #fff;
+    margin: 1rem auto 0;
+    width: 98%;
+    border-radius: 14px;
+    padding-bottom: 1rem;
+}
+
+.revenue__wrap {
+width: 97%;
+    margin: 0 auto;
+}
+
+.revenue__filter {
+padding: 15px 0 0;
+}
+
+.revenue__title {
+
+}
+
+.revenue__btns {
+	width: 30%;
+}
+
+.revenue__btn {
+	 color: #5a8dee;
+  font-family: Lato;
+  font-size: 9px;
+  font-weight: 700;
+  line-height: 11px;
+	transition: .3s ease-in-out;
+	border-radius: 5px;
+	    height: 1.35rem;
+}
+
+.revenue__btn:hover {
+/*width: 54px;*/
+  height: 21px;
+  border-radius: 5px;
+  background: #5a8dee;
+  color: #fff;
+}
+
+.revenue__btn-active {
+	
+}
+
+/*------------------*/
+
+.currency__item {
+	    margin: 1rem 0;
+}
+
+.currency__item:first-child {
+	margin-top: 0.9rem;
+}
+
+.visual__graphic {
+	width: 94%;	
+}
+
+.visual__month {
+	    width: 88%;
+    margin: 0 auto;
+}
+
+.month {
+	width: 30%;
 }
